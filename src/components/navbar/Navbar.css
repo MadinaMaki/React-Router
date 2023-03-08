@@ -1,0 +1,17 @@
+.navbar {
+    display: flex;
+}
+
+.navbar ul li .link {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 30px;
+
+    transition-property: all;
+    transition-duration: .5s;
+}
+
+.navbar ul li .link:hover {
+    color: #999999;
+}

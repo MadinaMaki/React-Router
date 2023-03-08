@@ -1,0 +1,21 @@
+.about-page {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-page .frame {
+    display: flex;
+    border: 2px solid #000000;
+    padding: 80px 30px;
+    margin: 20px 0;
+}
+
+.about-page .frame .info {
+    width: 56%;
+}
+
+.about-page .frame:last-child {
+    justify-content: flex-end;
+    text-align: right;
+}
+

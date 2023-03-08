@@ -1,0 +1,64 @@
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    justify-content: center;
+    margin: 50px auto;
+    padding: 55px 55px 100px 55px;
+    border: 2px solid #000000;
+}
+
+.auth-form .form {
+    display: flex;
+    width: 100%;
+    margin: 0 0 30px;
+    flex-direction: column;
+}
+
+.auth-form .form input {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #999999;
+    transition-property: all;
+    transition-duration: .5s;
+}
+
+.auth-form .form input:hover {
+    border: 1px solid #000000;
+}
+
+.auth-form button {
+    width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid #000000;
+    padding: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition-duration: .5s;
+    transition-property: all;
+}
+
+.auth-form button:hover {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #000000;
+}
+
+.sign-up-icons {
+    display: flex;
+}
+
+.sign-up-icons .icon {
+    display: flex;
+    background-color: #000000;
+    border-radius: 50%;
+    margin: 0 10px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.sign-up-icons .icon img {
+    width: 20px;
+}

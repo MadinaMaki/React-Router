@@ -1,0 +1,37 @@
+.main {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #000000;
+}
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 75px 0;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.banner-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-inner img {
+    width: 250px;
+    margin: 0 30px;
+}
+
+.banner .banner-info {
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    color: #ffffff;
+}
+
+.banner-info .title {
+    font-size: 35px;
+    margin: 0 0 15px;
+}

@@ -1,0 +1,29 @@
+.main {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #000000;
+}
+
+.header-inner {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 0;
+    justify-content: space-between;
+    color: #ffffff;
+}
+
+.header-inner .title {
+    font-size: 30px;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+
+
+
